@@ -46,8 +46,8 @@ if answer.lower() == "syl":
 else: 
     print("Incorrect !")
 
-print("Your score is : " + str(score))
-print("Your percentage is : " + str((score/5) * 100) + "%.")
+print("Your score is : " , (score))
+print("Your percentage is : " , ((score/5) * 100), "%.")
 
 
 

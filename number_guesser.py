@@ -1,9 +1,9 @@
 import random
 
-
 top_of_range = input("Type a number: ")
 # whatever the user types in the input will be returned as a string - so we convert it later
 # int("25") -> 25
+
 
 if top_of_range.isdigit():
     top_of_range = int(top_of_range)
